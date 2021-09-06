@@ -72,9 +72,6 @@ with open("user_statistics1.csv") as user_statistics:
 
 subprocess.run(["rm", "user_statistics1.csv"])
 
-#visualize the CSVs
-pd.read_csv("/Users/tochukwuonyido/Scripts/user_statistics.csv", index_col="Username") #put the file path 
-pd.read_csv("/Users/tochukwuonyido/Scripts/error_message.csv", index_col="Error") #put the file path
 
 
                 
